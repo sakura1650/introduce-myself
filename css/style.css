@@ -1,0 +1,155 @@
+li{
+    list-style: none;
+}
+body{
+    background-color:#ccc;
+}
+.title-namae  > p{
+    color: #8B4513;
+    font-family: "Sedan SC", serif;
+    text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%;
+   font-size:35px;
+   
+}
+.sakura-profile{
+    padding: 35px 20px 75px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.leo{
+    width:350px;
+    height:350px;
+}
+
+
+.profile-sentence{
+    font-family: "Freeman", sans-serif;
+    color:#444444
+   
+}
+.profile-title{
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+}
+.profile-list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.profile-list li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
+.sukinakoto-title{
+   
+    background-color: #696969;
+}
+
+
+.sukinakoto-title{
+    text-align: center;
+}
+.favorite{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sukinakoto{ 
+    font-family: "Freeman", sans-serif;
+}
+.sukinakoto-nakami{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:40px;
+}
+.sukinakoto-sentence{
+    text-align: center;
+}
+.sukinakoto-sentence li{
+    font-size:30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+span{
+    font-size:20px;
+}
+.korajyu1{
+    width:550px;
+} 
+.sakura-reccomendation{
+    font-family: "Freeman", sans-serif;
+}
+.memory{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.memory-title{
+    margin-top: 40px;
+    margin-bottom:40px;
+    background-color: #696969;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+.kandora-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.best{
+    text-align: center;
+}
+.best li{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.reco{
+    text-align: center;
+}
+.reco li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+@media screen and (max-width: 959px) {
+    .sakura-profile {
+        display: flex;
+        flex-direction: column;
+    }
+    .leo{
+        margin:auto;
+    }
+    .sukinakoto-nakami img{
+        width:50%;
+        height:50%;
+    }
+    .sukinakoto-nakami{
+        display: flex;
+        flex-direction: column;
+    }
+    .korajyu1{
+        margin: auto;
+    }
+    .photos{
+        display: flex;
+        flex-direction: column;
+    }
+    .kandora-photo1{
+        margin: auto;
+    }
+    .kandora-photo2{
+        margin:auto;
+    }
+    .kandora-photo3{
+        margin:auto;
+    }
+}
